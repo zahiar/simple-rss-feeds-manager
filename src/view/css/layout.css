@@ -1,0 +1,55 @@
+.project-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1024px;
+    height: 700px;
+    border: 3px solid #000;
+}
+
+.project-heading {
+    height: 115px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #000;
+}
+
+.project-heading .btn-home {
+    width: 29%;
+    float: left;
+    padding-left: 5%;
+}
+
+.project-heading .logo {
+    float: left;
+    width: 29%;
+    text-align: center;
+}
+
+.project-heading .user-details {
+    width: 29%;
+    float: right;
+    margin-top: 20px;
+}
+
+.project-content {
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.project-form-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.project-footer {
+    text-align: center;
+    border-top: 3px solid #000;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
